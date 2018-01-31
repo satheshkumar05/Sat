@@ -12,7 +12,7 @@
  * Local configuration information.
  *
  * If you are working in a local/desktop development environment and want to
- * keep your config separate, we recommend using a 'wp-config-local.php' file,
+ * keep your config separate, we recommend using a 'wp-config-local.php' file,ddd
  * which you should also make sure you .gitignore.
  */
 if (file_exists(dirname(__FILE__) . '/wp-config-local.php') && !isset($_ENV['PANTHEON_ENVIRONMENT'])):
